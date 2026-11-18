@@ -67,7 +67,7 @@ Harbor 是 Terminal-Bench 团队（Laude Institute）的评测框架。每道题
 
 ## a100d 上的状态（2026-11-19）
 - 仓库同步在 `/data/bench`。不经过 Docker 的判定：`expq /data/bench 1 <标签> -- /root/venv/bin/python scripts/grade_on_host.py tasks/<task> <solution.py> <report.json>`。主机环境是 torch 2.13、triton 3.7，和镜像里的版本不同，只用于校准。
-- 已装 docker.io 29.1.3 和 docker compose。NVIDIA Container Toolkit 1.20.2 的 deb 包正在传到 `/data/nct-debs`，还没装。
+- 已装 docker.io 29.1.3、docker compose、NVIDIA Container Toolkit 1.20.2。docker 已配置 nvidia runtime（`/etc/docker/daemon.json`）。本机还没有任何镜像，GPU 透传还没测试。
 - 2026-11-19 a100d 的下载速度只有约 5 KB/s，所有源都慢，拉不动 pytorch 镜像。连接频繁时 SSH 会被重置，用 ControlMaster 复用一条连接。
 
 ## 未决问题
