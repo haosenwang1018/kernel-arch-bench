@@ -1,0 +1,7 @@
+2026-11-19T09:02:27.304815Z ERROR codex_skills_extension::host_service: failed to install system skills: io error while create skills root dir: File exists (os error 17)
+2026-11-19T09:02:27.422508Z ERROR codex_skills_extension::host_service: failed to install system skills: io error while create skills root dir: File exists (os error 17)
+2026-11-19T09:02:27.426197Z ERROR codex_skills_extension::loader::host: failed to walk skills root file://~/.codex/skills: Operation not permitted (os error 1)
+2026-11-19T09:02:27.426224Z ERROR codex_skills_extension::loader::host: failed to walk skills root file://~/.codex/skills/.system: Operation not permitted (os error 1)
+2026-11-19T09:02:27.513942Z ERROR codex_skills_extension::host_service: failed to install system skills: io error while create skills root dir: File exists (os error 17)
+2026-11-19T09:02:27.539659Z ERROR codex_skills_extension::host_service: failed to install system skills: io error while create skills root dir: File exists (os error 17)
+2026-11-19T09:02:33.036497Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when AuthRequired(AuthRequiredError { www_authenticate_header: "Bearer realm=\"OAuth\", resource_metadata=\"https://mcp.notion.com/.well-known/oauth-protected-resource/mcp\", scope=\"default\"" })
