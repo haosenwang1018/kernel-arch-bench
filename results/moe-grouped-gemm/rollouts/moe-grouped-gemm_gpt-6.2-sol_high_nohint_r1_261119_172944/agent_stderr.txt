@@ -1,0 +1,10 @@
+2026-11-19T09:29:48.631431Z ERROR codex_skills_extension::host_service: failed to install system skills: io error while create skills root dir: File exists (os error 17)
+2026-11-19T09:29:53.167065Z ERROR codex_skills_extension::host_service: failed to install system skills: io error while create skills root dir: File exists (os error 17)
+2026-11-19T09:29:53.172193Z ERROR codex_skills_extension::loader::host: failed to walk skills root file://~/.codex/skills: Operation not permitted (os error 1)
+2026-11-19T09:29:53.172201Z ERROR codex_skills_extension::loader::host: failed to walk skills root file://~/.codex/skills/.system: Operation not permitted (os error 1)
+2026-11-19T09:29:53.259037Z ERROR codex_skills_extension::host_service: failed to install system skills: io error while create skills root dir: File exists (os error 17)
+2026-11-19T09:29:53.283486Z ERROR codex_skills_extension::host_service: failed to install system skills: io error while create skills root dir: File exists (os error 17)
+2026-11-19T09:29:53.642405Z ERROR codex_models_manager::manager: failed to refresh available models: timeout waiting for child process to exit
+2026-11-19T09:29:55.505829Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when AuthRequired(AuthRequiredError { www_authenticate_header: "Bearer realm=\"OAuth\", resource_metadata=\"https://mcp.notion.com/.well-known/oauth-protected-resource/mcp\", scope=\"default\"" })
+2026-11-19T09:34:28.658918Z ERROR codex_models_manager::manager: failed to refresh available models: timeout waiting for child process to exit
+2026-11-19T09:43:36.548064Z ERROR codex_models_manager::manager: failed to refresh available models: timeout waiting for child process to exit
