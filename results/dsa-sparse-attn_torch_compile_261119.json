@@ -1,0 +1,130 @@
+[
+  {
+    "case": {
+      "B": 2,
+      "H_q": 32,
+      "H_kv": 2,
+      "T": 4096,
+      "K_sel": 256,
+      "D": 128,
+      "dist": "sink_anchor",
+      "seed": 20261119
+    },
+    "eager_ms": 145.339,
+    "torch_compile_ms": 109.381,
+    "torch_compile_speedup": 1.329,
+    "torch_compile_saved_mb": 4480.0
+  },
+  {
+    "case": {
+      "B": 1,
+      "H_q": 32,
+      "H_kv": 2,
+      "T": 8192,
+      "K_sel": 256,
+      "D": 128,
+      "dist": "sink_anchor",
+      "seed": 20262119
+    },
+    "eager_ms": 291.881,
+    "torch_compile_ms": 224.945,
+    "torch_compile_speedup": 1.298,
+    "torch_compile_saved_mb": 8368.0
+  },
+  {
+    "case": {
+      "B": 1,
+      "H_q": 32,
+      "H_kv": 2,
+      "T": 8192,
+      "K_sel": 512,
+      "D": 128,
+      "dist": "local_global",
+      "seed": 20263119
+    },
+    "eager_ms": 292.061,
+    "torch_compile_ms": 225.669,
+    "torch_compile_speedup": 1.294,
+    "torch_compile_saved_mb": 8368.0
+  },
+  {
+    "case": {
+      "B": 2,
+      "H_q": 32,
+      "H_kv": 4,
+      "T": 4096,
+      "K_sel": 256,
+      "D": 128,
+      "dist": "sink_anchor",
+      "seed": 20264119
+    },
+    "eager_ms": 146.124,
+    "torch_compile_ms": 114.93,
+    "torch_compile_speedup": 1.271,
+    "torch_compile_saved_mb": 4272.0
+  },
+  {
+    "case": {
+      "B": 2,
+      "H_q": 16,
+      "H_kv": 1,
+      "T": 4096,
+      "K_sel": 256,
+      "D": 128,
+      "dist": "uniform",
+      "seed": 20265119
+    },
+    "eager_ms": 74.302,
+    "torch_compile_ms": 57.799,
+    "torch_compile_speedup": 1.286,
+    "torch_compile_saved_mb": 2016.0
+  },
+  {
+    "case": {
+      "B": 4,
+      "H_q": 32,
+      "H_kv": 2,
+      "T": 2048,
+      "K_sel": 128,
+      "D": 128,
+      "dist": "sink_anchor",
+      "seed": 20266119
+    },
+    "eager_ms": 73.109,
+    "torch_compile_ms": 59.194,
+    "torch_compile_speedup": 1.235,
+    "torch_compile_saved_mb": 2328.0
+  },
+  {
+    "case": {
+      "B": 2,
+      "H_q": 32,
+      "H_kv": 2,
+      "T": 4096,
+      "K_sel": 256,
+      "D": 64,
+      "dist": "sink_anchor",
+      "seed": 20267119
+    },
+    "eager_ms": 129.356,
+    "torch_compile_ms": 98.502,
+    "torch_compile_speedup": 1.313,
+    "torch_compile_saved_mb": 4080.0
+  },
+  {
+    "case": {
+      "B": 2,
+      "H_q": 24,
+      "H_kv": 3,
+      "T": 4096,
+      "K_sel": 384,
+      "D": 128,
+      "dist": "local_global",
+      "seed": 20268119
+    },
+    "eager_ms": 111.756,
+    "torch_compile_ms": 89.522,
+    "torch_compile_speedup": 1.248,
+    "torch_compile_saved_mb": 3256.0
+  }
+]
